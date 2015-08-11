@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Atmel Studio Solution File, Format Version 11.00
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "I2C_Slave_Reciever", "I2C_Slave_Reciever\I2C_Slave_Reciever.cproj", "{66BE313F-36C0-4593-9402-5E9B2D74EAB7}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "I2C_Slave_Sender", "I2C_Slave_Sender\I2C_Slave_Sender.cproj", "{9FC3BEAE-85CF-4E23-924F-B14C42739D51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -13,6 +15,10 @@ Global
 		{66BE313F-36C0-4593-9402-5E9B2D74EAB7}.Debug|AVR.Build.0 = Debug|AVR
 		{66BE313F-36C0-4593-9402-5E9B2D74EAB7}.Release|AVR.ActiveCfg = Release|AVR
 		{66BE313F-36C0-4593-9402-5E9B2D74EAB7}.Release|AVR.Build.0 = Release|AVR
+		{9FC3BEAE-85CF-4E23-924F-B14C42739D51}.Debug|AVR.ActiveCfg = Debug|AVR
+		{9FC3BEAE-85CF-4E23-924F-B14C42739D51}.Debug|AVR.Build.0 = Debug|AVR
+		{9FC3BEAE-85CF-4E23-924F-B14C42739D51}.Release|AVR.ActiveCfg = Release|AVR
+		{9FC3BEAE-85CF-4E23-924F-B14C42739D51}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
