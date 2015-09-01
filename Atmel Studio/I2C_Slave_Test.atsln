@@ -11,6 +11,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "I2C_Slave_Sender_ATMega88V"
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "I2C_Slave_Sender_ATMega88V_Byte_Sequence", "I2C_Slave_Sender_ATMega88V_Byte_Sequence\I2C_Slave_Sender_ATMega88V_Byte_Sequence.cproj", "{39A47490-AA5A-4C72-B2AB-E554227911B9}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "I2C_Slave_Sender_ATMega88V_Byte_Sequence_Interrupt", "I2C_Slave_Sender_ATMega88V_Byte_Sequence_Interrupt\I2C_Slave_Sender_ATMega88V_Byte_Sequence_Interrupt.cproj", "{E4627FA0-3DC8-4906-9651-742654306F5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -37,6 +39,10 @@ Global
 		{39A47490-AA5A-4C72-B2AB-E554227911B9}.Debug|AVR.Build.0 = Debug|AVR
 		{39A47490-AA5A-4C72-B2AB-E554227911B9}.Release|AVR.ActiveCfg = Release|AVR
 		{39A47490-AA5A-4C72-B2AB-E554227911B9}.Release|AVR.Build.0 = Release|AVR
+		{E4627FA0-3DC8-4906-9651-742654306F5E}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E4627FA0-3DC8-4906-9651-742654306F5E}.Debug|AVR.Build.0 = Debug|AVR
+		{E4627FA0-3DC8-4906-9651-742654306F5E}.Release|AVR.ActiveCfg = Release|AVR
+		{E4627FA0-3DC8-4906-9651-742654306F5E}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
