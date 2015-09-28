@@ -24,7 +24,7 @@ void setup()
   Serial.begin(9600);  // start serial for output
   Serial.println("Read Slave Data...");
   
-  //delay(1000);    // Serial通信の初期化待ち
+  delay(2000);    // Slaveの初期化待ち
 }
 
 //#define INC_ROTATE_WITHIN(l,h)  (val)=(++val)>(h)?(l):(val)  
@@ -49,17 +49,18 @@ void loop()
   //Serial.println("");
   //Wire.endTransmission();     // stop transmitting
   
-  /*
   // Transmitter
   //
   Wire.beginTransmission(TWI_SLAVE1_ADDRESS); // transmit to slave device
   Wire.write(val1);             // sends value byte  
   Wire.endTransmission();     // stop transmitting
-  val1++;
-  if (val1 == 8)
-    val1 = 0;
-  */
+  Serial.print(val1);
+  Serial.print(" ");
   
+  val1++;
+  if (val1 == 16)
+    val1 = 0;
+    
   // Slave2 ---------------------------------------------------------------------
   // Reciever
   //
@@ -73,13 +74,16 @@ void loop()
     Serial.print(x);
     Serial.print(" ");
   }
-  Serial.println("");
+  //Serial.println("");
   
   // Transmitter
   //
   Wire.beginTransmission(TWI_SLAVE2_ADDRESS); // transmit to slave device
   Wire.write(val2);             // sends value byte  
   Wire.endTransmission();     // stop transmitting
+  Serial.print(val2);
+  Serial.println("");
+  
   val2++;
   if (val2 == 8)
     val2 = 0;
